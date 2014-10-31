@@ -1,6 +1,6 @@
 package com.hurl.algorithm.sort;
 
-public class QuickSort implements Sort {
+public class QuickSort implements Sortable {
 
 	@Override
 	public void sort(int[] list) {

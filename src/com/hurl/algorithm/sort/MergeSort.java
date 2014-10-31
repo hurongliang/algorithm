@@ -1,6 +1,6 @@
 package com.hurl.algorithm.sort;
 
-public class MergeSort implements Sort {
+public class MergeSort implements Sortable {
 
 	@Override
 	public void sort(int[] list) {

@@ -1,6 +1,6 @@
 package com.hurl.algorithm.sort;
 
-public class BubbleSort implements Sort {
+public class BubbleSort implements Sortable {
 
 	@Override
 	public void sort(int[] list) {

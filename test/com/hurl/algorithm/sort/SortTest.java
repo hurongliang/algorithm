@@ -36,14 +36,19 @@ public class SortTest {
 		new BubbleSort().sort(eachList);
 	}
 
-	@Test
+	// @Test
 	public void mergeSort() {
 		new MergeSort().sort(eachList);
 	}
 
-	@Test
+	// @Test
 	public void testQuickSort() {
 		new QuickSort().sort(eachList);
+	}
+
+	@Test
+	public void testInserionSort() {
+		new InsertionSort().sort(eachList);
 	}
 
 	@AfterMethod

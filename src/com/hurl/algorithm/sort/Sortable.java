@@ -1,5 +1,5 @@
 package com.hurl.algorithm.sort;
 
-public interface Sort {
+public interface Sortable {
 	public void sort(int[] list);
 }
